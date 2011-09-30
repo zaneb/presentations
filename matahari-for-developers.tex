@@ -1,0 +1,27 @@
+\documentclass{tufte-handout}
+
+\newcommand{\doctitle}{}
+\newcommand{\SetTitle}[1]{\renewcommand{\doctitle}{#1}\title{\doctitle}}
+\fancyhead[RE]{}
+\fancyhead[LE]{\thepage\quad\smallcaps{\doctitle}}
+
+\SetTitle{Introduction to Matahari for Developers}
+\author{Russell Bryant \& Zane Bitter}
+\date{12 October 2011}
+
+\begin{document}
+\maketitle
+
+\begin{abstract}
+An introduction to the \href{http://matahariproject.org}{Matahari Project} for prospective developers of new Matahari agents and consumers of Matahari APIs.
+\end{abstract}
+
+\input{intro}
+
+\input{create}
+
+\input{using}
+
+\input{future}
+
+\end{document}
