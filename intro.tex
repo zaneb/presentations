@@ -1,6 +1,6 @@
 \section{Introduction to Matahari}
 
-Matahari is a cross-platform (Linux and Windows so far) collection of APIs accessible over local and remote interfaces for systems management and monitoring. What the heck does that mean? Read on, dear friends.
+Matahari is a cross-platform\footnote{Linux and Windows are supported so far.} collection of APIs accessible over local and remote interfaces for systems management and monitoring. What the heck does that mean? Read on, dear friends.
 
 \subsection{Architecture Overview}
 
@@ -49,6 +49,5 @@ Matahari is still under heavy development, but there is already a decent amount 
 
 An example of a project that already utilizes Matahari is \href{http://pacemaker-cloud.org/}{Pacemaker-cloud}, which is also under heavy development. Pacemaker-cloud utilizes both the Host and Services agents of Matahari. Being able to actively monitor and control services on remote hosts is a key element of being able to provide HA in a cloud deployment.
 
-In addition to providing ready-to-use agents, we also provide some code that makes it easier to write a QMF agent so that third-parties can write their own Matahari agents. One example of this that already exists is \href{http://libvirt.org/}{libvirt-qmf}, which is a Matahari agent that exposes libvirt functionality over QMF. 
-
+In addition to providing ready-to-use agents, we also provide some code that makes it easier to write a QMF agent so that third-parties can write their own Matahari agents. One example of this that is already shipping in Fedora 16 is \texttt{libvirt-qmf}, which is a Matahari agent that exposes \href{http://libvirt.org/}{libvirt} functionality over QMF.\footnote{\texttt{libvirt-qmf} replaces \texttt{libvirt-qpid}, a QMFv1 agent that was not integrated with Matahari.}
 
