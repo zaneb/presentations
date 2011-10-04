@@ -1,2 +1,9 @@
 \section{Using Matahari}
 
+To get data from or call methods objects exposed by a Matahari agent, you must write a QMF console application. This can be done using the C++ Qpid client library or using the QMF Python console library. In Fedora, the required packages are \texttt{qpid-cpp-client-devel} and \texttt{qpid-qmf-devel} for C++ and \texttt{python-qpid-qmf} for Python.
+
+Examples of consoles using the C++ library include the Matahari Service console\footnote{A client for the Service agent, included in the Matahari tree.} and Pacemaker-cloud.
+
+The simplest example of a Python console application is \texttt{qmf-tool}, a shell that ships\footnote{In the \texttt{qpid-tools} package in Fedora.} with QMF. There are also unit tests for both Matahari and \texttt{libvirt-qmf} that are written as Python console applications.
+
+\newthought{A console application} connects to a QMF broker and can query for connected agents or objects exported by those agents, including filtering by class name or property values. When the console has obtained a reference to a specific object it may retrieve properties and statistics or invoke methods on the object.
