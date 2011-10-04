@@ -3,3 +3,4 @@ install
 *.aux
 *.out
 *.pdf
+*.toc
