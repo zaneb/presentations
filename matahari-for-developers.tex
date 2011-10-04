@@ -6,6 +6,10 @@
 \usepackage{hyperref}
 \hypersetup{colorlinks=true}
 
+% Hide page numbers in ToC
+\let\Contentsline\contentsline
+\renewcommand\contentsline[3]{\Contentsline{#1}{#2}{}}
+
 \title{Introduction to Matahari for Developers}
 \author{\href{mailto:rbryant@redhat.com}{Russell Bryant} \& \href{mailto:zbitter@redhat.com}{Zane Bitter}}
 \date{12 October 2011}
@@ -13,11 +17,12 @@
 \begin{document}
 \maketitle
 
+\marginnote{\tableofcontents}
+
 \begin{abstract}
 An introduction to the \href{http://matahariproject.org}{Matahari Project} for prospective developers of new Matahari agents and consumers of Matahari APIs.
 \end{abstract}
 
-\tableofcontents
 
 \input{intro}
 
