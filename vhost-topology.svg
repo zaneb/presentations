@@ -14,7 +14,7 @@
    id="svg8717"
    version="1.1"
    inkscape:version="0.48.1 r9760"
-   sodipodi:docname="vhost-topology.inkscape.svg"
+   sodipodi:docname="vhost-topology.svg"
    inkscape:export-filename="/home/zbitter/work/2012/January/FOSDEM/vhost.png"
    inkscape:export-xdpi="90"
    inkscape:export-ydpi="90">
@@ -28,7 +28,7 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.5"
-     inkscape:cx="421.72263"
+     inkscape:cx="63.72263"
      inkscape:cy="375.93377"
      inkscape:current-layer="layer1"
      inkscape:document-units="px"
@@ -366,7 +366,7 @@
        inkscape:connection-end="#rect8725"
        inkscape:connection-end-point="d4" />
     <path
-       style="fill:none;stroke:#000000;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       style="fill:none;stroke:#000000;stroke-width:3;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
        d="m 472,293.28571 -40,31.42858"
        id="path3048"
        inkscape:connector-type="polyline"
@@ -376,7 +376,7 @@
        inkscape:connection-end="#rect8725"
        inkscape:connection-end-point="d4" />
     <path
-       style="fill:none;stroke:#000000;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       style="fill:none;stroke:#000000;stroke-width:3;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
        d="M 472,434.71429 432,403.28571"
        id="path3818"
        inkscape:connector-type="polyline"
@@ -396,7 +396,7 @@
        inkscape:connection-end="#rect8725-1"
        inkscape:connection-end-point="d4" />
     <path
-       style="fill:none;stroke:#000000;stroke-width:8;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
+       style="fill:none;stroke:#000000;stroke-width:8;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
        d="m 215.33333,414 -26.66666,50"
        id="path3822"
        inkscape:connector-type="polyline"
