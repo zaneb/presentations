@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="1024px"
+   height="768px"
+   id="svg2995"
+   version="1.1"
+   inkscape:version="0.48.1 r9760"
+   sodipodi:docname="arch.svg">
+  <defs
+     id="defs2997" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.78324694"
+     inkscape:cx="533.94713"
+     inkscape:cy="371.52115"
+     inkscape:current-layer="layer1"
+     inkscape:document-units="px"
+     showgrid="false"
+     inkscape:window-width="1396"
+     inkscape:window-height="907"
+     inkscape:window-x="28"
+     inkscape:window-y="52"
+     inkscape:window-maximized="0" />
+  <metadata
+     id="metadata3000">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     id="layer1"
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer">
+    <path
+       style="fill:#bfdce8;fill-opacity:1;stroke:none"
+       d="m 872,428 -820,0 0,-185 615,0 0,115 205,0 z"
+       id="path4123"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccccc" />
+    <rect
+       style="fill:#e3dcc0;fill-opacity:1"
+       id="rect4109"
+       width="820"
+       height="230"
+       x="52"
+       y="448" />
+    <rect
+       style="fill:#0093d9;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1.03345644px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       id="rect3003"
+       width="698.96655"
+       height="98.966545"
+       x="162.51672"
+       y="568.51672" />
+    <rect
+       style="fill:#2c8596;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1.03345643999999992px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       id="rect3003-7"
+       width="698.96655"
+       height="98.966545"
+       x="162.51672"
+       y="458.51672" />
+    <rect
+       style="fill:#abb400;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.72935092px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       id="rect3003-8"
+       width="699.27069"
+       height="49.270649"
+       x="162.36467"
+       y="368.36469" />
+    <rect
+       style="fill:#ff8d00;fill-opacity:1"
+       id="rect3798"
+       width="90"
+       height="100"
+       x="167"
+       y="253" />
+    <rect
+       style="fill:#ff8d00;fill-opacity:1"
+       id="rect3798-1"
+       width="90"
+       height="100"
+       x="267"
+       y="253" />
+    <rect
+       style="fill:#ff8d00;fill-opacity:1"
+       id="rect3798-7"
+       width="90"
+       height="100"
+       x="367"
+       y="253" />
+    <rect
+       style="fill:#ff8d00;fill-opacity:1"
+       id="rect3798-79"
+       width="90"
+       height="100"
+       x="467"
+       y="253" />
+    <rect
+       style="fill:#ff8d00;fill-opacity:1"
+       id="rect3798-798"
+       width="90"
+       height="100"
+       x="567"
+       y="253" />
+    <rect
+       style="fill:#ff8d00;fill-opacity:1"
+       id="rect3798-9"
+       width="90"
+       height="100"
+       x="767"
+       y="253" />
+    <rect
+       style="fill:#dc9e2e;fill-opacity:1"
+       id="rect3871"
+       width="20"
+       height="80"
+       x="573"
+       y="158" />
+    <rect
+       style="fill:#dc9e2e;fill-opacity:1"
+       id="rect3871-9"
+       width="20"
+       height="80"
+       x="603"
+       y="158" />
+    <rect
+       style="fill:#dc9e2e;fill-opacity:1"
+       id="rect3871-9-7"
+       width="20"
+       height="80"
+       x="633"
+       y="158" />
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-weight:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       x="513.03516"
+       y="628.18555"
+       id="text3909"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan3911"
+         x="513.03516"
+         y="628.18555"
+         style="font-size:40px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Liberation Sans;-inkscape-font-specification:Liberation Sans Bold">AMQP</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-weight:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       x="511.92188"
+       y="518.0293"
+       id="text3909-7"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan3911-8"
+         x="511.92188"
+         y="518.0293"
+         style="font-size:40px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Liberation Sans;-inkscape-font-specification:Liberation Sans Bold">QMF</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-weight:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       x="511.35547"
+       y="407.29688"
+       id="text3909-7-5"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan3911-8-4"
+         x="511.35547"
+         y="407.29688"
+         style="font-size:40px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Liberation Sans;-inkscape-font-specification:Liberation Sans Bold">Matahari Core</tspan></text>
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot3955"
+       style="font-size:32px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Liberation Sans;-inkscape-font-specification:Liberation Sans"
+       transform="translate(0.015625,-5.8263834)"><flowRegion
+         id="flowRegion3957"><rect
+           id="rect3959"
+           width="72.047905"
+           height="47.520958"
+           x="174.75449"
+           y="288.19162"
+           style="font-size:32px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;text-anchor:middle;font-family:Liberation Sans;-inkscape-font-specification:Liberation Sans" /></flowRegion><flowPara
+         id="flowPara3961">Host</flowPara></flowRoot>    <flowRoot
+       xml:space="preserve"
+       id="flowRoot3955-5"
+       style="font-size:32px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Liberation Sans;-inkscape-font-specification:Liberation Sans"
+       transform="translate(100.01562,-5.8263834)"><flowRegion
+         id="flowRegion3957-0"><rect
+           id="rect3959-4"
+           width="72.047905"
+           height="47.520958"
+           x="174.75449"
+           y="288.19162"
+           style="font-size:32px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;text-anchor:middle;font-family:Liberation Sans;-inkscape-font-specification:Liberation Sans" /></flowRegion><flowPara
+         id="flowPara3990">Net</flowPara></flowRoot>    <flowRoot
+       xml:space="preserve"
+       id="flowRoot3955-57"
+       style="font-size:32px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Liberation Sans;-inkscape-font-specification:Liberation Sans"
+       transform="translate(200.375,-5.2560709)"><flowRegion
+         id="flowRegion3957-3"><rect
+           id="rect3959-9"
+           width="72.047905"
+           height="47.520958"
+           x="174.75449"
+           y="288.19162"
+           style="font-size:32px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;text-anchor:middle;font-family:Liberation Sans;-inkscape-font-specification:Liberation Sans" /></flowRegion><flowPara
+         id="flowPara4007">Conf</flowPara></flowRoot>    <flowRoot
+       xml:space="preserve"
+       id="flowRoot3955-0"
+       style="font-size:32px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Liberation Sans;-inkscape-font-specification:Liberation Sans"
+       transform="translate(300.91406,-5.6623209)"><flowRegion
+         id="flowRegion3957-8"><rect
+           id="rect3959-5"
+           width="72.047905"
+           height="47.520958"
+           x="174.75449"
+           y="288.19162"
+           style="font-size:32px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;text-anchor:middle;font-family:Liberation Sans;-inkscape-font-specification:Liberation Sans" /></flowRegion><flowPara
+         id="flowPara3961-6">Svc</flowPara></flowRoot>    <flowRoot
+       xml:space="preserve"
+       id="flowRoot3955-6"
+       style="font-size:32px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Liberation Sans;-inkscape-font-specification:Liberation Sans"
+       transform="translate(400.52344,-5.6623209)"><flowRegion
+         id="flowRegion3957-2"><rect
+           id="rect3959-2"
+           width="72.047905"
+           height="47.520958"
+           x="174.75449"
+           y="288.19162"
+           style="font-size:32px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;text-anchor:middle;font-family:Liberation Sans;-inkscape-font-specification:Liberation Sans" /></flowRegion><flowPara
+         id="flowPara3961-0">RPC</flowPara></flowRoot>    <flowRoot
+       xml:space="preserve"
+       id="flowRoot3955-68"
+       style="font-size:32px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Liberation Sans;-inkscape-font-specification:Liberation Sans"
+       transform="translate(274.01487,-113.40451)"
+       inkscape:transform-center-x="44.45509"
+       inkscape:transform-center-y="-14.914062"><flowRegion
+         id="flowRegion3957-1"><rect
+           id="rect3959-52"
+           width="124.16767"
+           height="53.652702"
+           x="174.75449"
+           y="288.19162"
+           style="font-size:32px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;text-anchor:middle;font-family:Liberation Sans;-inkscape-font-specification:Liberation Sans" /></flowRegion><flowPara
+         id="flowPara3961-9">Plugins</flowPara></flowRoot>    <flowRoot
+       xml:space="preserve"
+       id="flowRoot3955-68-2"
+       style="font-size:32px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Liberation Sans;-inkscape-font-specification:Liberation Sans"
+       transform="translate(682.18235,-25.240446)"
+       inkscape:transform-center-x="44.45509"
+       inkscape:transform-center-y="-14.914062"><flowRegion
+         id="flowRegion3957-1-7"><rect
+           id="rect3959-52-0"
+           width="151.76048"
+           height="85.84433"
+           x="174.75449"
+           y="288.19162"
+           style="font-size:32px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;text-anchor:middle;font-family:Liberation Sans;-inkscape-font-specification:Liberation Sans" /></flowRegion><flowPara
+         id="flowPara3961-9-6">libvirt-qmf &amp;c.</flowPara></flowRoot>    <flowRoot
+       xml:space="preserve"
+       id="flowRoot4111"
+       style="font-size:40px;font-style:normal;font-weight:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       transform="matrix(0,-1,1,0,-466.43737,711.72656)"><flowRegion
+         id="flowRegion4113"><rect
+           id="rect4115"
+           width="162.49103"
+           height="119.56895"
+           x="67.449104"
+           y="519.66467"
+           style="text-align:center;writing-mode:lr-tb;text-anchor:middle" /></flowRegion><flowPara
+         id="flowPara4117"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;writing-mode:lr-tb;text-anchor:middle;font-family:Liberation Sans;-inkscape-font-specification:Liberation Sans">Apache Qpid</flowPara></flowRoot>    <flowRoot
+       xml:space="preserve"
+       id="flowRoot4111-8"
+       style="font-size:40px;font-style:normal;font-weight:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       transform="matrix(0,-1,1,0,-437.48229,501.5957)"><flowRegion
+         id="flowRegion4113-8"><rect
+           id="rect4115-9"
+           width="186.74901"
+           height="120.8457"
+           x="67.449104"
+           y="519.66467"
+           style="text-align:center;writing-mode:lr-tb;text-anchor:middle" /></flowRegion><flowPara
+         id="flowPara4117-6"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;writing-mode:lr-tb;text-anchor:middle;font-family:Liberation Sans;-inkscape-font-specification:Liberation Sans">Matahari</flowPara></flowRoot>  </g>
+</svg>

@@ -1,0 +1,409 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="1024px"
+   height="768px"
+   id="svg8717"
+   version="1.1"
+   inkscape:version="0.48.1 r9760"
+   sodipodi:docname="vhost-topology.inkscape.svg"
+   inkscape:export-filename="/home/zbitter/work/2012/January/FOSDEM/vhost.png"
+   inkscape:export-xdpi="90"
+   inkscape:export-ydpi="90">
+  <defs
+     id="defs8719" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.5"
+     inkscape:cx="421.72263"
+     inkscape:cy="375.93377"
+     inkscape:current-layer="layer1"
+     inkscape:document-units="px"
+     showgrid="false"
+     inkscape:window-width="1227"
+     inkscape:window-height="849"
+     inkscape:window-x="362"
+     inkscape:window-y="72"
+     inkscape:window-maximized="0" />
+  <metadata
+     id="metadata8722">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     id="layer1"
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     style="display:inline">
+    <rect
+       style="fill:#bfdce8;fill-opacity:1;stroke:none"
+       id="rect8727"
+       width="600"
+       height="500"
+       x="312"
+       y="134" />
+    <rect
+       style="fill:#e3dcc0;fill-opacity:1;stroke:none"
+       id="rect9237"
+       width="440"
+       height="200"
+       x="452"
+       y="154" />
+    <rect
+       style="fill:#e3dcc0;fill-opacity:1;stroke:none"
+       id="rect9237-3"
+       width="440"
+       height="200"
+       x="452"
+       y="374" />
+    <rect
+       style="fill:#ff8d00;fill-opacity:1;stroke:none"
+       id="rect8725-2-0"
+       width="50"
+       height="50"
+       x="652"
+       y="179" />
+    <rect
+       style="fill:#ff8d00;fill-opacity:1;stroke:none"
+       id="rect8725-2-0-2"
+       width="50"
+       height="50"
+       x="727"
+       y="229" />
+    <rect
+       style="fill:#ff8d00;fill-opacity:1;stroke:none"
+       id="rect8725-2-0-0"
+       width="50"
+       height="50"
+       x="652"
+       y="279" />
+    <rect
+       style="fill:#ff8d00;fill-opacity:1;stroke:none"
+       id="rect8725-2-0-6"
+       width="50"
+       height="50"
+       x="652"
+       y="399" />
+    <rect
+       style="fill:#ff8d00;fill-opacity:1;stroke:none"
+       id="rect8725-2-0-2-5"
+       width="50"
+       height="50"
+       x="727"
+       y="449" />
+    <rect
+       style="fill:#ff8d00;fill-opacity:1;stroke:none"
+       id="rect8725-2-0-0-6"
+       width="50"
+       height="50"
+       x="652"
+       y="499" />
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot9428"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       transform="matrix(1.0000011,0,0,1,-12.676149,1.3361614)"><flowRegion
+         id="flowRegion9430"><rect
+           id="rect9432"
+           width="330"
+           height="48"
+           x="332"
+           y="574" /></flowRegion><flowPara
+         id="flowPara9434"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Liberation Sans;-inkscape-font-specification:Liberation Sans Bold">Hypervisor</flowPara></flowRoot>    <flowRoot
+       xml:space="preserve"
+       id="flowRoot9428-7"
+       style="font-size:40px;font-style:normal;font-weight:normal;text-align:end;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:end;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       transform="translate(214.16211,-50.753682)"><flowRegion
+         id="flowRegion9430-5"><rect
+           id="rect9432-2"
+           width="330"
+           height="48"
+           x="332"
+           y="574"
+           style="text-align:end;text-anchor:end" /></flowRegion><flowPara
+         id="flowPara9434-1"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:end;text-anchor:end;font-family:Liberation Sans;-inkscape-font-specification:Liberation Sans Bold">Guest</flowPara></flowRoot>    <flowRoot
+       xml:space="preserve"
+       id="flowRoot9428-7-6"
+       style="font-size:40px;font-style:normal;font-weight:normal;text-align:end;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:end;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       transform="translate(214.16211,-270.75368)"><flowRegion
+         id="flowRegion9430-5-1"><rect
+           id="rect9432-2-0"
+           width="330"
+           height="48"
+           x="332"
+           y="574"
+           style="text-align:end;text-anchor:end" /></flowRegion><flowPara
+         id="flowPara9434-1-6"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:end;text-anchor:end;font-family:Liberation Sans;-inkscape-font-specification:Liberation Sans Bold">Guest</flowPara></flowRoot>    <rect
+       style="fill:#ff8d00;fill-opacity:1;stroke:none"
+       id="rect8725-2-0-6-9"
+       width="50"
+       height="50"
+       x="332"
+       y="218" />
+    <rect
+       style="fill:#ff8d00;fill-opacity:1;stroke:none"
+       id="rect8725-2-0-6-98"
+       width="50"
+       height="50"
+       x="392"
+       y="218" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:6;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="M 0,0 0,0"
+       id="path9590"
+       inkscape:connector-type="polyline"
+       inkscape:connector-curvature="0"
+       inkscape:connection-end="#rect8725"
+       inkscape:connection-end-point="d4"
+       inkscape:connection-start-point="d4"
+       inkscape:connection-start="#rect8725-2" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:6;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="M 0,0 0,0"
+       id="path9592"
+       inkscape:connector-type="polyline"
+       inkscape:connector-curvature="0"
+       inkscape:connection-start="#rect8725-5"
+       inkscape:connection-start-point="d4"
+       inkscape:connection-end="#rect8725"
+       inkscape:connection-end-point="d4" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:16;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="M 0,0 0,0"
+       id="path9594"
+       inkscape:connector-type="polyline"
+       inkscape:connector-curvature="0"
+       inkscape:connection-start="#rect8725"
+       inkscape:connection-start-point="d4"
+       inkscape:connection-end="#rect8725-1"
+       inkscape:connection-end-point="d4" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:16;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="M 0,0 0,0"
+       id="path9596"
+       inkscape:connector-type="polyline"
+       inkscape:connector-curvature="0"
+       inkscape:connection-start="#rect8725-1"
+       inkscape:connection-start-point="d4"
+       inkscape:connection-end="#rect8725-1-0"
+       inkscape:connection-end-point="d4" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:6;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="M 0,0 0,0"
+       id="path3842"
+       inkscape:connector-type="polyline"
+       inkscape:connector-curvature="0"
+       inkscape:connection-start="#rect8725-2"
+       inkscape:connection-start-point="d4"
+       inkscape:connection-end="#rect8725"
+       inkscape:connection-end-point="d4" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:6;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="M 0,0 0,0"
+       id="path3844"
+       inkscape:connector-type="polyline"
+       inkscape:connector-curvature="0"
+       inkscape:connection-start="#rect8725-5"
+       inkscape:connection-start-point="d4"
+       inkscape:connection-end="#rect8725"
+       inkscape:connection-end-point="d4" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:16;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="M 0,0 0,0"
+       id="path3846"
+       inkscape:connector-type="polyline"
+       inkscape:connector-curvature="0"
+       inkscape:connection-start="#rect8725"
+       inkscape:connection-start-point="d4"
+       inkscape:connection-end="#rect8725-1"
+       inkscape:connection-end-point="d4" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:16;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="M 0,0 0,0"
+       id="path3848"
+       inkscape:connector-type="polyline"
+       inkscape:connector-curvature="0"
+       inkscape:connection-start="#rect8725-1"
+       inkscape:connection-start-point="d4"
+       inkscape:connection-end="#rect8725-1-0"
+       inkscape:connection-end-point="d4" />
+    <rect
+       style="fill:#0093d9;fill-opacity:1;stroke:none;display:inline"
+       id="rect8725"
+       width="100"
+       height="100"
+       x="332"
+       y="314" />
+    <rect
+       style="fill:#0093d9;fill-opacity:1;stroke:none;display:inline"
+       id="rect8725-2"
+       width="100"
+       height="100"
+       x="472"
+       y="204" />
+    <rect
+       style="fill:#0093d9;fill-opacity:1;stroke:none;display:inline"
+       id="rect8725-5"
+       width="100"
+       height="100"
+       x="472"
+       y="424" />
+    <rect
+       style="fill:#0093d9;fill-opacity:1;stroke:none;display:inline"
+       id="rect8725-1"
+       width="100"
+       height="100"
+       x="192"
+       y="314" />
+    <rect
+       style="fill:#2c8596;fill-opacity:1;stroke:none;display:inline"
+       id="rect8725-1-0"
+       width="100"
+       height="100"
+       x="112"
+       y="464" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 652,212.06452 -80,25.80645"
+       id="path3032"
+       inkscape:connector-type="polyline"
+       inkscape:connector-curvature="0"
+       inkscape:connection-start="#rect8725-2-0"
+       inkscape:connection-start-point="d4"
+       inkscape:connection-end="#rect8725-2"
+       inkscape:connection-end-point="d4" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 727,254 -155,0"
+       id="path3034"
+       inkscape:connector-type="polyline"
+       inkscape:connector-curvature="0"
+       inkscape:connection-start="#rect8725-2-0-2"
+       inkscape:connection-start-point="d4"
+       inkscape:connection-end="#rect8725-2"
+       inkscape:connection-end-point="d4" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 652,295.93548 572,270.12903"
+       id="path3036"
+       inkscape:connector-type="polyline"
+       inkscape:connector-curvature="0"
+       inkscape:connection-start="#rect8725-2-0-0"
+       inkscape:connection-start-point="d4"
+       inkscape:connection-end="#rect8725-2"
+       inkscape:connection-end-point="d4" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 652,432.06452 -80,25.80645"
+       id="path3038"
+       inkscape:connector-type="polyline"
+       inkscape:connector-curvature="0"
+       inkscape:connection-start="#rect8725-2-0-6"
+       inkscape:connection-start-point="d4"
+       inkscape:connection-end="#rect8725-5"
+       inkscape:connection-end-point="d4" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 727,474 -155,0"
+       id="path3040"
+       inkscape:connector-type="polyline"
+       inkscape:connector-curvature="0"
+       inkscape:connection-start="#rect8725-2-0-2-5"
+       inkscape:connection-start-point="d4"
+       inkscape:connection-end="#rect8725-5"
+       inkscape:connection-end-point="d4" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 652,515.93548 572,490.12903"
+       id="path3042"
+       inkscape:connector-type="polyline"
+       inkscape:connector-curvature="0"
+       inkscape:connection-start="#rect8725-2-0-0-6"
+       inkscape:connection-start-point="d4"
+       inkscape:connection-end="#rect8725-5"
+       inkscape:connection-end-point="d4" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 362.16529,268 9.50413,46"
+       id="path3044"
+       inkscape:connector-type="polyline"
+       inkscape:connector-curvature="0"
+       inkscape:connection-start="#rect8725-2-0-6-9"
+       inkscape:connection-start-point="d4"
+       inkscape:connection-end="#rect8725"
+       inkscape:connection-end-point="d4" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 409.7686,268 -13.30579,46"
+       id="path3046"
+       inkscape:connector-type="polyline"
+       inkscape:connector-curvature="0"
+       inkscape:connection-start="#rect8725-2-0-6-98"
+       inkscape:connection-start-point="d4"
+       inkscape:connection-end="#rect8725"
+       inkscape:connection-end-point="d4" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m 472,293.28571 -40,31.42858"
+       id="path3048"
+       inkscape:connector-type="polyline"
+       inkscape:connector-curvature="0"
+       inkscape:connection-start="#rect8725-2"
+       inkscape:connection-start-point="d4"
+       inkscape:connection-end="#rect8725"
+       inkscape:connection-end-point="d4" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="M 472,434.71429 432,403.28571"
+       id="path3818"
+       inkscape:connector-type="polyline"
+       inkscape:connector-curvature="0"
+       inkscape:connection-start="#rect8725-5"
+       inkscape:connection-start-point="d4"
+       inkscape:connection-end="#rect8725"
+       inkscape:connection-end-point="d4" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:8;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m 332,364 -40,0"
+       id="path3820"
+       inkscape:connector-type="polyline"
+       inkscape:connector-curvature="0"
+       inkscape:connection-start="#rect8725"
+       inkscape:connection-start-point="d4"
+       inkscape:connection-end="#rect8725-1"
+       inkscape:connection-end-point="d4" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:8;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
+       d="m 215.33333,414 -26.66666,50"
+       id="path3822"
+       inkscape:connector-type="polyline"
+       inkscape:connector-curvature="0"
+       inkscape:connection-start="#rect8725-1"
+       inkscape:connection-start-point="d4"
+       inkscape:connection-end="#rect8725-1-0"
+       inkscape:connection-end-point="d4" />
+  </g>
+</svg>
