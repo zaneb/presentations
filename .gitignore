@@ -1,0 +1,6 @@
+install
+*.pdf
+*.log
+*.aux
+*.out
+*.toc
