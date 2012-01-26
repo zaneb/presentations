@@ -1,2 +1,7 @@
 *.png
+*.pdf
+*.aux
+*.log
+*.out
+*.toc
 .~*
