@@ -36,7 +36,7 @@ Matahari is a framework for remote systems management. Unlike traditional method
 \end{figure*}
 
 Matahari messages use the Advanced Message Queueing Protocol (AMQP) as a transport. This allows for a very flexible and scalable messaging architecture, with the ability to efficiently manage large quantities of machines.
-Matahari exposes remote APIs as objects with properties, methods and events which are exported by the Qpid Management Framework. QMF is an object-based RPC protocol provided by and running on top of Apache Qpid, a popular implementation of AMQP.
+Matahari exposes remote APIs as objects with properties, methods and events which are exported by the Qpid Management Framework. QMF provides an object modelling layer with remote method invocation and introspection. It is developed as part of and runs on top of Apache Qpid, a popular implementation of AMQP.
 
 As well as the bus architecture of AMQP, QMF supports asynchronous method calls and publish-subscribe semantics for events. All of these features make it very suitable for large-scale deployments.
 
@@ -56,7 +56,7 @@ The RPC agent exports any Python module stored in the directory \Verb|/usr/lib/m
 
 Support for a Ruby backend would be a desirable future addition.
 
-\section{Matahari Core}
+\section{Core Libraries}
 
 The core of Matahari (see Figure~\ref{fig:arch}) comprises code that creates the skeleton structure of a Matahari agent and links it with QMF. Both the agents that ship with Matahari and external agents such as libvirt-qmf share this same core.
 
@@ -68,12 +68,14 @@ Every Matahari agent shares common configuration files, command line options, en
 \label{fig:agent-arch}
 \end{figure}
 
-The API of an agent is defined by a QMF Schema. As shown in Figure~\ref{fig:agent-arch}, Matahari includes tools to transform the XML schema into code to create the necessary classes in QMF.
+The API of an agent is defined by a \href{https://cwiki.apache.org/qpid/qpid-management-framework.html#QpidManagementFramework-Schema}{QMF Schema}. As shown in Figure~\ref{fig:agent-arch}, Matahari includes tools to transform the XML schema into code to create the necessary classes in QMF.
 It also includes tools to (optionally) generate the skeleton of a D-Bus API from the same schema, so that the same API can be accessed locally via D-Bus on Linux systems.\footnote{The included Host, Network, Sysconfig and Service APIs supply D-Bus as well as QMF agents.}
 
 The underlying functionality of the API is usually encapsulated in a shared library. It is envisioned that for most third-party agents this will be an existing C API. In that case, for both the QMF and D-Bus agents the developer need only write the glue code to link the underlying API to the generated schema.
 
-\section{Matahari Clients}
+Developers of third-party agents should start by forking the \href{https://github.com/matahari/matahari-agent-example}{example agent project} on GitHub and adapting it to their needs.\footnote{For more information, read the \href{https://github.com/downloads/zaneb/presentations/matahari-for-developers-7db27de.pdf}{Introduction to Matahari for Developers}.}
+
+\section{Clients}
 
 \begin{marginfigure}
 \includegraphics[trim=0 8em 0 8em,width=\textwidth]{qmf-terminology.pdf}
@@ -95,6 +97,10 @@ Matahari installs its own broker, which is simply a thin wrapper around Apache Q
 
 There are QMF console libraries available in C++, Python and Ruby.
 In addition, there is a Matahari API in Python under active development.\footnote{A preview is available now in the Matahari Git repository.} This API simplifies common systems-management tasks that are specific to Matahari rather than generic to QMF, such as selecting agents by host. It also provides an easy mechanism for using asynchronous QMF operations to deal with many agents in parallel.
+
+\subsection{Applications}
+
+Matahari is already in use by the \href{http://pacemaker-cloud.org/}{Pacemaker Cloud} project to remotely monitor the state of system services using push notifications. The Cloud Policy Engine acts as a Matahari console to control and monitor services.
 
 \subsection{Matahari Shell}
 
