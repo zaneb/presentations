@@ -54,6 +54,18 @@ The RPC agent allows developers or system administrators to add their own custom
 
 The RPC agent exports any Python module stored in the directory \Verb|/usr/lib/matahari/plugins| as a plugin object in QMF. Every public, callable attribute of the module is exported as a method of the plugin object. Parameters are passed and results returned in \smallcaps{JSON} format.
 
+\begin{figure}[hb]
+\begin{Verbatim}
+import subprocess
+
+def num_calls():
+    cl_args = ["asterisk", "-rx", "core show channels count"]
+    return subprocess.check_output(cl_args)
+\end{Verbatim}
+\caption{An example RPC plugin for getting the number of calls from an Asterisk server. The \texttt{num\_calls} function will be exported as a method of a QMF class named after the module. See Figure \ref{fig:shell} for an example use.}
+\label{fig:rpc}
+\end{figure}
+
 Support for a Ruby backend would be a desirable future addition.
 
 \section{Core Libraries}
@@ -61,6 +73,24 @@ Support for a Ruby backend would be a desirable future addition.
 The core of Matahari (see Figure~\ref{fig:arch}) comprises code that creates the skeleton structure of a Matahari agent and links it with QMF. Both agents that ship with Matahari and external agents such as libvirt-qmf share this same core.
 
 Every Matahari agent shares common configuration files, command line options, environment variables and the like, to ensure that the entire suite of agents running on a system need only be configured once.
+
+\begin{figure}[h]
+\begin{Verbatim}
+<schema package="org.matahariproject.testagent">
+    <class name="TestClass">
+        <property name="hostname" type="sstr" access="RO" desc="Hostname" index="y" />
+
+        <method name="sum" desc="Sum of two numbers">
+            <arg name="x" dir="I" type="int32" />
+            <arg name="y" dir="I" type="int32" />
+            <arg name="result" dir="O" type="int32" />
+        </method>
+    </class>
+</schema>
+\end{Verbatim}
+\caption{The example agent schema.}
+\label{fig:schema}
+\end{figure}
 
 \begin{figure}[hbt]
 \includegraphics[trim=0 9em 0 12em,width=\textwidth]{agent-arch.pdf}
@@ -110,6 +140,28 @@ The Matahari Shell (\texttt{mhsh}) is a wrapper around the Matahari Python API.\
 The strategy for using the shell is to select a subset of the available objects and perform operations on the whole group.
 The user selects an object class and, optionally, a list of hosts and property values on which to filter.
 The shell inherits from the API the ability to dispatch method calls to every selected object in parallel.
+
+\begin{figure*}[hb]
+\begin{Verbatim}
+$ mhsh
+mhsh> list hosts
+ast1
+ast2
+mhsh> select class package org.matahariproject.rpc.plugin asterisk
+mhsh [org.matahariproject.rpc.plugin:calls]> call num_calls
+OK (0) - {u'result': '"0 active channels\\n0 active calls\\n0 calls processed\\n"'}
+OK (0) - {u'result': '"0 active channels\\n0 active calls\\n0 calls processed\\n"'}
+mhsh [org.matahariproject.rpc.plugin:calls]> select class Host
+mhsh [org.matahariproject:Host]> select host ast1
+mhsh (host)[org.matahariproject:Host]> get load
+{u'1': 0.0, u'5': 0.01, u'15': 0.05}
+mhsh (host)[org.matahariproject:Host]> quit
+$
+\end{Verbatim}
+\caption{An example shell session. First we call the \texttt{num\_calls} method from the RPC plugin of Figure \ref{fig:rpc} on all hosts where it is present. Then we select a single host and get its load average from the Host agent.}
+\label{fig:shell}
+\end{figure*}
+
 
 \section{More Information}
 
