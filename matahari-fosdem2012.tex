@@ -35,30 +35,30 @@ Matahari is a framework for remote systems management. Unlike traditional method
 \label{fig:arch}
 \end{figure*}
 
-Matahari messages use the Advanced Message Queueing Protocol (AMQP) as a transport. This allows for a very flexible and scalable messaging architecture, with the ability to efficiently manage large quantities of machines.
-Matahari exposes remote APIs as objects with properties, methods and events which are exported by the Qpid Management Framework. QMF provides an object modelling layer with remote method invocation and introspection. It is developed as part of and runs on top of Apache Qpid, a popular implementation of AMQP.
+Matahari messages use the Advanced Message Queueing Protocol (AMQP) as a transport. This allows for a very flexible and scalable messaging architecture, with the ability to efficiently manage a large network of machines.
+Matahari exposes remote APIs as objects with properties, methods and events which are exported by the Qpid Management Framework. QMF provides an object modelling layer with remote method invocation and introspection. It is developed as part of and runs atop Apache Qpid, a popular implementation of AMQP.
 
-As well as the bus architecture of AMQP, QMF supports asynchronous method calls and publish-subscribe semantics for events. All of these features make it very suitable for large-scale deployments.
+In addition to the bus architecture of AMQP, QMF supports asynchronous method calls and publish-subscribe semantics for events. These features also help make it very suitable for large-scale deployments.
 
 \section{Matahari Agents}
 
 Matahari ships with a number of agents that export useful APIs. At present, Matahari includes Host (generic hardware information), Network (network interfaces), Sysconfig (Puppet and Augeas configuration), Service (system services) and RPC agents.
 Many of these agents support Windows as well as Linux hosts, so they can be used on Windows-based virtualised guests.
 
-More agents are planned, particularly for package management.
+More agents are planned, in particular for package management.
 However, the Matahari project itself is not intended to be the source of all system APIs. Rather, Matahari seeks to provide access to its infrastructure so that developers from other projects can create third-party agents to expose their own APIs.
 
 \subsection{RPC Agent}
 
 The RPC agent allows developers or system administrators to add their own custom functionality to Matahari without the overhead of developing a new agent in C++. The combination of Matahari and RPC plugins offers functionality similar to MCollective.
 
-The RPC agent exports any Python module stored in the directory \Verb|/usr/lib/matahari/plugins| as a plugin object in QMF. Every public, callable top-level object in the module is exported as a method of the plugin object. Parameters are passed and results returned in \smallcaps{JSON} format.
+The RPC agent exports any Python module stored in the directory \Verb|/usr/lib/matahari/plugins| as a plugin object in QMF. Every public, callable attribute of the module is exported as a method of the plugin object. Parameters are passed and results returned in \smallcaps{JSON} format.
 
 Support for a Ruby backend would be a desirable future addition.
 
 \section{Core Libraries}
 
-The core of Matahari (see Figure~\ref{fig:arch}) comprises code that creates the skeleton structure of a Matahari agent and links it with QMF. Both the agents that ship with Matahari and external agents such as libvirt-qmf share this same core.
+The core of Matahari (see Figure~\ref{fig:arch}) comprises code that creates the skeleton structure of a Matahari agent and links it with QMF. Both agents that ship with Matahari and external agents such as libvirt-qmf share this same core.
 
 Every Matahari agent shares common configuration files, command line options, environment variables and the like, to ensure that the entire suite of agents running on a system need only be configured once.
 
@@ -68,12 +68,12 @@ Every Matahari agent shares common configuration files, command line options, en
 \label{fig:agent-arch}
 \end{figure}
 
-The API of an agent is defined by a \href{https://cwiki.apache.org/qpid/qpid-management-framework.html#QpidManagementFramework-Schema}{QMF Schema}. As shown in Figure~\ref{fig:agent-arch}, Matahari includes tools to transform the XML schema into code to create the necessary classes in QMF.
+The API of an agent is described by a \href{https://cwiki.apache.org/qpid/qpid-management-framework.html#QpidManagementFramework-Schema}{QMF Schema}, which defines events and the classes of objects and their properties and methods. As shown in Figure~\ref{fig:agent-arch}, Matahari includes tools to transform the XML schema into code to create the necessary classes in QMF.
 It also includes tools to (optionally) generate the skeleton of a D-Bus API from the same schema, so that the same API can be accessed locally via D-Bus on Linux systems.\footnote{The included Host, Network, Sysconfig and Service APIs supply D-Bus as well as QMF agents.}
 
-The underlying functionality of the API is usually encapsulated in a shared library. It is envisioned that for most third-party agents this will be an existing C API. In that case, for both the QMF and D-Bus agents the developer need only write the glue code to link the underlying API to the generated schema.
+The underlying functionality of the API is usually encapsulated in a shared library. It is envisioned that for most third-party agents this will be an existing C API. In that case, the developer need only write the glue code for each of the QMF and D-Bus agents to link the underlying API to the generated schema.
 
-Developers of third-party agents should start by forking the \href{https://github.com/matahari/matahari-agent-example}{example agent project} on GitHub and adapting it to their needs.\footnote{For more information, read the \href{https://github.com/downloads/zaneb/presentations/matahari-for-developers-7db27de.pdf}{Introduction to Matahari for Developers}.}
+Developers of third-party agents should begin by forking the \href{https://github.com/matahari/matahari-agent-example}{example agent repository} on GitHub and adapting it to their needs.\footnote{For more information, read the \href{https://github.com/downloads/zaneb/presentations/matahari-for-developers-7db27de.pdf}{Introduction to Matahari for Developers}.}
 
 \section{Clients}
 
@@ -85,15 +85,16 @@ Developers of third-party agents should start by forking the \href{https://githu
 
 In QMF terminology, client applications are known as ``consoles''. Consoles connect to agents through one or more message brokers. Broker Federation can be used to set up a network of interconnected brokers.
 
-\begin{figure}[b!]
+\begin{figure}[b]
 \includegraphics[trim=0 12em 0 12em,width=\textwidth]{vhost-topology.pdf}
 \caption{A typical Matahari QMF Bus topology in a virtualised environment.}
 \label{fig:vhost-topology}
 \end{figure}
 
-In a typical Matahari setup, shown in Figure~\ref{fig:vhost-topology}, agents connect to a local broker running on the same host. The local broker may federate with an external broker to allow centralised management. In a virtualised environment, local brokers on the guests can federate with a broker running on the host through a \smallcaps{QEMU} vios-proxy tunnel.
+In a typical Matahari setup agents connect to a local broker running on the same host. The local broker may federate with an external broker to allow centralised management of a group of machines.
+In a virtualised environment, illustrated in Figure~\ref{fig:vhost-topology}, local brokers on the guests can federate with a broker running on the host through a \smallcaps{QEMU} vios-proxy tunnel.
  
-Matahari installs its own broker, which is simply a thin wrapper around Apache Qpid that reads Matahari-specific configuration. In this way, Matahari can be kept completely separate from any other use of AMQP in the network.\footnote{By default, the Matahari broker uses its own TCP port, 49000, to listen for incoming connections.}
+Matahari installs its own broker, which is simply a thin wrapper around the Apache Qpid broker to read Matahari-specific configuration. In this way, Matahari can be kept completely separate from any other use of AMQP in the network.\footnote{By default, the Matahari broker uses its own TCP port, 49000, to listen for incoming connections.}
 
 There are QMF console libraries available in C++, Python and Ruby.
 In addition, there is a Matahari API in Python under active development.\footnote{A preview is available now in the Matahari Git repository.} This API simplifies common systems-management tasks that are specific to Matahari rather than generic to QMF, such as selecting agents by host. It also provides an easy mechanism for using asynchronous QMF operations to deal with many agents in parallel.
@@ -104,7 +105,7 @@ Matahari is already in use by the \href{http://pacemaker-cloud.org/}{Pacemaker C
 
 \subsection{Matahari Shell}
 
-The Matahari Shell (\texttt{mhsh}) is a wrapper around the Matahari Python API. It allows the user to interact with remote agents using a command-line interface,\footnote{The interface should feel at least somewhat familiar to anyone who has used Cisco's IOS, or any of the many similar command lines.} or from a script.
+The Matahari Shell (\texttt{mhsh}) is a wrapper around the Matahari Python API.\footnote{Like the API, the shell is still under active development and is subject to change, but available to preview now.} It allows the user to interact with remote agents using a command-line interface,\footnote{The interface should feel at least somewhat familiar to anyone who has used Cisco's IOS, or any of the many similar command lines.} or to drive them from a script.
 
 The strategy for using the shell is to select a subset of the available objects and perform operations on the whole group.
 The user selects an object class and, optionally, a list of hosts and property values on which to filter.
