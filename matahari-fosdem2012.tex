@@ -36,7 +36,7 @@ Matahari is a framework for remote systems management. Unlike traditional method
 \end{figure*}
 
 Matahari messages use the Advanced Message Queueing Protocol (AMQP) as a transport. This allows for a very flexible and scalable messaging architecture, with the ability to efficiently manage a large network of machines.
-Matahari exposes remote APIs as objects with properties, methods and events which are exported by the Qpid Management Framework. QMF provides an object modelling layer with remote method invocation and introspection. It is developed as part of and runs atop Apache Qpid, a popular implementation of AMQP.
+Matahari exposes remote APIs as objects with properties, methods and events which are exported by the Qpid Management Framework. QMF provides an object modelling layer with remote method invocation and introspection. It is developed as part of and runs atop Apache Qpid, a popular implementation of AMQP.\footnote{In the future we will investigate breaking this dependency, hopefully to the point where QMF could run on top of other AMQP implementations.}
 
 In addition to the bus architecture of AMQP, QMF supports asynchronous method calls and publish-subscribe semantics for events. These features also help make it very suitable for large-scale deployments.
 
