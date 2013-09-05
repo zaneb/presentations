@@ -22,7 +22,7 @@ $(eval $(call graphics, png))
 $(eval $(call graphics, pdf))
 
 
-$(output): %.pdf:%.tex $(includes) $(pdf_graphics)
+$(output): %.pdf:%.tex $(inclusions) $(pdf_graphics)
 	pdflatex $<
 
 $(output): %.pdf:%.out
