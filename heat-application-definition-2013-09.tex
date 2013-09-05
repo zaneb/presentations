@@ -1,0 +1,38 @@
+\documentclass{tufte-handout}
+
+\usepackage{fancyvrb}
+\fvset{fontsize=\normalsize}
+
+\usepackage{hyperref}
+\hypersetup{colorlinks=true}
+
+\usepackage{graphicx}
+
+% Hide page numbers in ToC
+\let\Contentsline\contentsline
+\renewcommand\contentsline[3]{\Contentsline{#1}{#2}{}}
+
+\title{Application Definition with Heat}
+\author{\href{mailto:zbitter@redhat.com}{Zane Bitter} \& \href{mailto:shardy@redhat.com}{Steven Hardy}}
+\date{10 September 2013}
+
+\begin{document}
+\maketitle
+
+\marginnote{\tableofcontents \vspace{2em}}
+
+\begin{abstract}
+An introduction to Heat templates, how they are used to define the configuration---particularly the software configuration---of an application and future plans for the template format.
+\end{abstract}
+
+\input{orchestration}
+
+\input{software-config}
+
+\input{providers}
+
+\input{image-building}
+
+\input{hot}
+
+\end{document}

@@ -1,4 +1,4 @@
-DOCS = 
+DOCS = heat-application-definition-2013-09.tex
 
 tex_files = $(wildcard *.tex)
 svg_files = $(wildcard *.svg)
