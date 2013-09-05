@@ -1,2 +1,7 @@
 \section{What is Heat?}
 
+Heat is the project providing Orchestration for OpenStack. It allows cloud infrastructure to be represented in a declarative form (`template'). The service itself parses these templates and calls the various OpenStack APIs to create or modify the deployment, while maintaining correct dependencies between them. The collection of resources associated with a template is known as a stack. One of the resource types available is a stack, so templates can be composed into hierarchical structures.
+
+Heat is based on the AWS CloudFormation service. CloudFormation templates are represented as \textsc{Json} documents. Heat has added a \textsc{Yaml} serialisation for easier consumption by humans, as well as OpenStack native resource types in addition to AWS compatibility resource types. (Heat also has its own OpenStack-native \textsc{Rest} API in addition to a CloudFormation-compatible Query API.)
+
+CloudFormation templates are widely held to be inferior to \textsc{Tosca} service templates for deploying complex applications, because CloudFormation is designed around orchestrating infrastructure resources, not the software configuration of applications.
