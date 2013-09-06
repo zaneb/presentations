@@ -3,6 +3,7 @@
 # Shell script to install the necessary packages to get LaTeX working with the
 # Tufte-LaTeX package on Fedora. (Tested on F15.)
 
+install_src() {
 echo "This may take some time..."
 
 [ -d install ] || mkdir install
@@ -52,4 +53,15 @@ EOF
 fi
 
 sudo /usr/local/bin/tlmgr install tufte-latex titlesec soul
+}
+
+install_rpm() {
+    sudo yum install texlive-latex-bin textlive-texconfig texlive texlive-tufte-latex textlive-titlesec
+}
+
+if which yum >/dev/null && yum info texlive >/dev/null 2>/dev/null; then
+    install_rpm
+else
+    install_src
+fi
 
