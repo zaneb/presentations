@@ -2,8 +2,15 @@
 
 The scope of CloudFormation is essentially limited to providing data to the underlying infrastructure APIs. In the case of virtual servers, that means putting data directly onto the server via the UserData section (which is limited in size to 16kB) or supplying it via the metadata server.
 
-Heat requires that the server image be built with \texttt{cloud-init} enabled. The UserData supplied by the template is actually only a part of the configuration supplied to \texttt{cloud-init} through the server's UserData. Generally, the UserData property in the template contains a script that runs at startup to configure the server.
+Heat supports the same model for instance configuration.  This requires that the server image be built with \texttt{cloud-init} enabled. The UserData supplied by the template is actually only a part of the configuration supplied to \texttt{cloud-init} through the server's UserData. Generally, the UserData property in the template contains a script that runs at startup to configure the server.
 
 However, CloudFormation is also associated \emph{by convention} with a set of in-instance tools. The main one, \texttt{cfn-init}, operates on metadata supplied in the template to configure the server. This metadate is in a declarative form, and can trigger such tasks as installing packages, or enabling and starting services. \texttt{cfn-init} itself is run only when called explicitly from the UserData script.
 
 The Heat project maintains a partial reimplementation of the AWS in-instance tools (the \texttt{heat-cfntools}). We are also developing a set of native in-instance tools in co-operation with the TripleO (OpenStack-on-OpenStack) project.
+
+There is work in-progress to allow more flexible options for software configuration in Heat:
+
+\begin{itemize}
+\item Allow customization to be performed using \emph{only} cloud-init, removing the requirement for the Cloudformation-compatible cfn-init tool \footnote{there is considerable overlap in functionality between the two tools, and currently we only use cloud-init to bootstrap the cfn-init tool}
+\item Provide new \emph{software configuration provider} resource abstractions to enable more declarative definition (and easier reuse) of software configuration, and more transparently leverage existing config-management tools such as Chef and Puppet.
+\end{itemize}
