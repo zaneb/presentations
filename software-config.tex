@@ -11,6 +11,6 @@ The Heat project maintains a partial reimplementation of the AWS in-instance too
 There is work in-progress to allow more flexible options for software configuration in Heat:
 
 \begin{itemize}
-\item Allow customization to be performed using \emph{only} cloud-init, removing the requirement for the Cloudformation-compatible cfn-init tool \footnote{there is considerable overlap in functionality between the two tools, and currently we only use cloud-init to bootstrap the cfn-init tool}
+\item Allow customization to be performed using \emph{only} cloud-init, removing the requirement for the Cloudformation-compatible cfn-init tool.\footnote{There is considerable overlap in functionality between the two tools, and currently we only use \texttt{cloud-init} to bootstrap the \texttt{cfn-init} tool.}
 \item Provide new \emph{software configuration provider} resource abstractions to enable more declarative definition (and easier reuse) of software configuration, and more transparently leverage existing config-management tools such as Chef and Puppet.
 \end{itemize}
