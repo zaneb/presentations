@@ -2,8 +2,8 @@
 
 Servers launched with Heat can use any disk image, so the building of disk images is orthogonal to what Heat does. Building custom images allows users to avoid time-consuming installation processes at boot, but not all clouds allow custom images. There will always be demand for customising images at runtime purely for convenience as well, especially during testing.
 
-At the begining of the Heat project, we typically used Oz TDL files to build disk images containing the \texttt{heat-cfntools}. Those tools have since been packaged, and can now be obtained from RPMs or from PyPI.
+At the begining of the Heat project, we typically used Oz TDL files to build disk images containing the \texttt{heat-cfntools}. Those tools have since been packaged, and can now be obtained from RPMs or from PyPI (meaning a custom image is not strictly necessary).
 
 Around a year ago, Tomas Sedovic built a tool\footnote{The tool, known as \texttt{heat-prebuild}, is available \href{https://github.com/sdake/heat-prebuild}{on GitHub}.} for converting the \texttt{heat-cfntools} configuration data in Heat templates into a TDL format, building a disk image with Oz and uploading the result to Glance\footnote{The OpenStack Image Store service.}. However this tool is now unmaintained for want of interest.
 
-The Heat project is moving to align more with the rest of OpenStack, by using the Disk-image-builder tool developed as part of TripleO. Despite the name, d-i-b doesn't actually build disk images, it just customises existing images (similar to the \texttt{oz-customize} tool).
+The Heat project is moving to align more with the rest of OpenStack, by using the \texttt{diskimage-builder} tool developed as part of TripleO. However, there is no equivalent of Oz's TDL format. \texttt{diskimage-builder} builds images in a chroot jail by running a user-configured set of scripts at each stage of the process.
