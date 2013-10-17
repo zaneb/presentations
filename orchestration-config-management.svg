@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="1024px"
+   height="768px"
+   id="svg4608"
+   version="1.1"
+   inkscape:version="0.48.4 r9939"
+   sodipodi:docname="orchestration-config-management.svg">
+  <defs
+     id="defs4610" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.5"
+     inkscape:cx="499.17241"
+     inkscape:cy="222"
+     inkscape:current-layer="layer1"
+     inkscape:document-units="px"
+     showgrid="false"
+     inkscape:window-width="1538"
+     inkscape:window-height="947"
+     inkscape:window-x="199"
+     inkscape:window-y="263"
+     inkscape:window-maximized="0" />
+  <metadata
+     id="metadata4613">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     id="layer1"
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer">
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot3207"
+       style="font-size:40px;font-style:normal;font-weight:normal;text-align:end;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:end;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       transform="matrix(0,-1,1,0,-425.54447,991.24604)"><flowRegion
+         id="flowRegion3209"><rect
+           id="rect3211"
+           width="320"
+           height="56"
+           x="90"
+           y="666"
+           style="text-align:end;text-anchor:end" /></flowRegion><flowPara
+         id="flowPara3213"
+         style="font-size:32px;text-align:end;text-anchor:end">Compute</flowPara></flowRoot>    <flowRoot
+       xml:space="preserve"
+       id="flowRoot3207-0"
+       style="font-size:40px;font-style:normal;font-weight:normal;text-align:end;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:end;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       transform="matrix(0,-1,1,0,-296.36161,980.82416)"><flowRegion
+         id="flowRegion3209-9"><rect
+           id="rect3211-8"
+           width="308"
+           height="150"
+           x="90"
+           y="666"
+           style="text-align:end;text-anchor:end" /></flowRegion><flowPara
+         id="flowPara3213-8"
+         style="font-size:32px;text-align:end;text-anchor:end">Block</flowPara><flowPara
+         id="flowPara3323"
+         style="font-size:32px;text-align:end;text-anchor:end">Storage</flowPara></flowRoot>    <flowRoot
+       xml:space="preserve"
+       id="flowRoot3207-09"
+       style="font-size:40px;font-style:normal;font-weight:normal;text-align:end;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:end;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       transform="matrix(0,-1,1,0,-127.17875,954.16791)"><flowRegion
+         id="flowRegion3209-0"><rect
+           id="rect3211-1"
+           width="282"
+           height="106"
+           x="90"
+           y="666"
+           style="text-align:end;text-anchor:end" /></flowRegion><flowPara
+         id="flowPara3329"
+         style="font-size:32px;text-align:end;text-anchor:end">Object</flowPara><flowPara
+         id="flowPara3333"
+         style="font-size:32px;text-align:end;text-anchor:end">Storage</flowPara></flowRoot>    <flowRoot
+       xml:space="preserve"
+       id="flowRoot3207-1"
+       style="font-size:40px;font-style:normal;font-weight:normal;text-align:end;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:end;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       transform="matrix(0,-1,1,0,42.004112,992.82416)"><flowRegion
+         id="flowRegion3209-5"><rect
+           id="rect3211-6"
+           width="320"
+           height="56"
+           x="90"
+           y="666"
+           style="text-align:end;text-anchor:end" /></flowRegion><flowPara
+         id="flowPara3213-88"
+         style="font-size:32px;text-align:end;text-anchor:end">Network</flowPara></flowRoot>    <flowRoot
+       xml:space="preserve"
+       id="flowRoot3207-6"
+       style="font-size:40px;font-style:normal;font-weight:normal;text-align:end;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:end;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       transform="matrix(0,-1,1,0,164.98385,991.24604)"><flowRegion
+         id="flowRegion3209-1"><rect
+           id="rect3211-63"
+           width="320"
+           height="56"
+           x="90"
+           y="666"
+           style="text-align:end;text-anchor:end" /></flowRegion><flowPara
+         id="flowPara3213-9"
+         style="font-size:32px;text-align:end;text-anchor:end">Database</flowPara></flowRoot>    <rect
+       style="fill:#579568;fill-opacity:1;stroke:none"
+       id="rect5444"
+       width="265"
+       height="150"
+       x="65"
+       y="397" />
+    <rect
+       style="fill:#d7923f;fill-opacity:1;stroke:none"
+       id="rect4934"
+       width="802"
+       height="100"
+       x="190"
+       y="447" />
+    <rect
+       style="fill:#a09dc6;fill-opacity:1;stroke:none"
+       id="rect5446"
+       width="100"
+       height="400"
+       x="65"
+       y="47" />
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot5455"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       transform="translate(106.06445,47.426909)"><flowRegion
+         id="flowRegion5457"><rect
+           id="rect5459"
+           width="372"
+           height="50"
+           x="436"
+           y="424" /></flowRegion><flowPara
+         id="flowPara5461">Heat</flowPara></flowRoot>    <flowRoot
+       xml:space="preserve"
+       id="flowRoot5479"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       transform="matrix(0,-1,1,0,-45.83481,510.8418)"><flowRegion
+         id="flowRegion5481"><rect
+           id="rect5483"
+           width="454"
+           height="138"
+           x="96"
+           y="132" /></flowRegion><flowPara
+         id="flowPara5485">Puppet, Chef &amp;c.</flowPara></flowRoot>    <flowRoot
+       xml:space="preserve"
+       id="flowRoot5487"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       transform="translate(138,-34)"><flowRegion
+         id="flowRegion5489"><rect
+           id="rect5491"
+           width="100"
+           height="66"
+           x="76"
+           y="428" /></flowRegion><flowPara
+         id="flowPara5493">Juju</flowPara></flowRoot>    <flowRoot
+       xml:space="preserve"
+       id="flowRoot5495"
+       style="font-size:40px;font-style:normal;font-weight:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       transform="translate(-75,4)"><flowRegion
+         id="flowRegion5497"><rect
+           id="rect5499"
+           width="540"
+           height="340"
+           x="460"
+           y="295"
+           style="text-align:center;text-anchor:middle" /></flowRegion><flowPara
+         style="font-size:36px;font-style:italic;text-align:center;text-anchor:middle;-inkscape-font-specification:Sans Italic"
+         id="flowPara5532">Infrastructure</flowPara><flowPara
+         style="font-size:36px;font-style:italic;text-align:center;text-anchor:middle;-inkscape-font-specification:Sans Italic"
+         id="flowPara5536">(Orchestration)</flowPara></flowRoot>    <flowRoot
+       xml:space="preserve"
+       id="flowRoot5503"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       transform="matrix(0,-1,1,0,107.31167,695.98129)"><flowRegion
+         id="flowRegion5505"><rect
+           id="rect5507"
+           width="466"
+           height="166"
+           x="234"
+           y="82" /></flowRegion><flowPara
+         id="flowPara5509"
+         style="font-size:36px;font-style:italic;text-align:center;text-anchor:middle;-inkscape-font-specification:Sans Italic">Software</flowPara><flowPara
+         style="font-size:36px;font-style:italic;text-align:center;text-anchor:middle;-inkscape-font-specification:Sans Italic"
+         id="flowPara5538">(Configuration</flowPara><flowPara
+         id="flowPara5511"
+         style="font-size:36px;font-style:italic;text-align:center;text-anchor:middle;-inkscape-font-specification:Sans Italic">Management)</flowPara></flowRoot>    <flowRoot
+       xml:space="preserve"
+       id="flowRoot3207-6-2"
+       style="font-size:40px;font-style:normal;font-weight:normal;text-align:end;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:end;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       transform="matrix(0,-1,1,0,267.61983,989.48041)"><flowRegion
+         id="flowRegion3209-1-3"><rect
+           id="rect3211-63-1"
+           width="320"
+           height="56"
+           x="90"
+           y="666"
+           style="text-align:end;text-anchor:end" /></flowRegion><flowPara
+         id="flowPara3213-9-6"
+         style="font-size:32px;text-align:end;text-anchor:end">...</flowPara></flowRoot>  </g>
+</svg>

@@ -1,0 +1,426 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="1024px"
+   height="768px"
+   id="svg3197"
+   version="1.1"
+   inkscape:version="0.48.4 r9939"
+   sodipodi:docname="openstack-arch.svg">
+  <defs
+     id="defs3199" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.5"
+     inkscape:cx="548.51213"
+     inkscape:cy="368.36377"
+     inkscape:current-layer="g4537"
+     inkscape:document-units="px"
+     showgrid="false"
+     inkscape:window-width="1141"
+     inkscape:window-height="851"
+     inkscape:window-x="719"
+     inkscape:window-y="152"
+     inkscape:window-maximized="0" />
+  <metadata
+     id="metadata3202">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     id="layer1"
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer">
+    <g
+       id="g4590">
+      <g
+         transform="translate(0,-70)"
+         id="g4326">
+        <g
+           id="g4319">
+          <rect
+             y="468"
+             x="860"
+             height="250"
+             width="120"
+             id="rect3205-96"
+             style="fill:#68b5cc;fill-opacity:1;stroke:none" />
+          <flowRoot
+             transform="matrix(0,-1,1,0,226.12222,786.92578)"
+             style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+             id="flowRoot3207-2"
+             xml:space="preserve"><flowRegion
+               id="flowRegion3209-55"><rect
+                 y="666"
+                 x="90"
+                 height="56"
+                 width="320"
+                 id="rect3211-7" /></flowRegion><flowPara
+               id="flowPara3213-3">Identity</flowPara></flowRoot>        </g>
+        <flowRoot
+           xml:space="preserve"
+           id="flowRoot4215-93"
+           style="font-size:24px;font-style:normal;font-weight:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+           transform="translate(819.03906,0)"><flowRegion
+             id="flowRegion4217-1"><rect
+               id="rect4219-2"
+               width="115.96552"
+               height="32.526936"
+               x="42.426407"
+               y="726.98779"
+               style="font-size:24px;text-align:center;text-anchor:middle" /></flowRegion><flowPara
+             id="flowPara4221-3">Keystone</flowPara></flowRoot>      </g>
+      <g
+         id="g4584">
+        <rect
+           style="fill:#68b5cc;fill-opacity:1;stroke:none"
+           id="rect4213"
+           width="917.82458"
+           height="35"
+           x="39.59798"
+           y="414.09839" />
+        <g
+           id="g4580">
+          <rect
+             y="178"
+             x="916.4104"
+             height="230"
+             width="35"
+             id="rect4445"
+             style="fill:#68b5cc;fill-opacity:1;stroke:none" />
+          <rect
+             y="178"
+             x="803.27325"
+             height="35"
+             width="142.83557"
+             id="rect4447"
+             style="fill:#68b5cc;fill-opacity:1;stroke:none" />
+        </g>
+      </g>
+    </g>
+    <g
+       id="g4400"
+       transform="translate(0,-70)">
+      <g
+         transform="translate(-10,0)"
+         id="g3433">
+        <rect
+           style="fill:#2c8596;fill-opacity:1;stroke:none"
+           id="rect3205"
+           width="120"
+           height="250"
+           x="50"
+           y="468" />
+        <flowRoot
+           xml:space="preserve"
+           id="flowRoot3207"
+           style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+           transform="matrix(0,-1,1,0,-583.87778,785.24609)"><flowRegion
+             id="flowRegion3209"><rect
+               id="rect3211"
+               width="320"
+               height="56"
+               x="90"
+               y="666" /></flowRegion><flowPara
+             id="flowPara3213">Compute</flowPara></flowRoot>      </g>
+      <flowRoot
+         transform="translate(-0.50390625,0)"
+         style="font-size:24px;font-style:normal;font-weight:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+         id="flowRoot4215"
+         xml:space="preserve"><flowRegion
+           id="flowRegion4217"><rect
+             style="font-size:24px;text-align:center;text-anchor:middle"
+             y="726.98779"
+             x="42.426407"
+             height="32.526936"
+             width="115.96552"
+             id="rect4219" /></flowRegion><flowPara
+           id="flowPara4221">Nova</flowPara></flowRoot>    </g>
+    <g
+       id="g4387"
+       transform="translate(0,-70)">
+      <g
+         transform="translate(-23.333328,0)"
+         id="g3425">
+        <rect
+           style="fill:#2c8596;fill-opacity:1;stroke:none"
+           id="rect3205-0"
+           width="120"
+           height="250"
+           x="200"
+           y="468" />
+        <flowRoot
+           xml:space="preserve"
+           id="flowRoot3207-0"
+           style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+           transform="matrix(0,-1,1,0,-457.87778,785.63672)"><flowRegion
+             id="flowRegion3209-9"><rect
+               id="rect3211-8"
+               width="308"
+               height="150"
+               x="90"
+               y="666" /></flowRegion><flowPara
+             id="flowPara3213-8">Block</flowPara><flowPara
+             id="flowPara3323">Storage</flowPara></flowRoot>      </g>
+      <flowRoot
+         transform="translate(135.58269,0.73828125)"
+         style="font-size:24px;font-style:normal;font-weight:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+         id="flowRoot4215-0"
+         xml:space="preserve"><flowRegion
+           id="flowRegion4217-0"><rect
+             style="font-size:24px;text-align:center;text-anchor:middle"
+             y="726.98779"
+             x="42.426407"
+             height="32.526936"
+             width="115.96552"
+             id="rect4219-4" /></flowRegion><flowPara
+           id="flowPara4315">Cinder</flowPara></flowRoot>    </g>
+    <g
+       id="g4375"
+       transform="translate(0,-70)">
+      <g
+         transform="translate(-20.666656,0)"
+         id="g3418">
+        <rect
+           style="fill:#2c8596;fill-opacity:1;stroke:none"
+           id="rect3205-6"
+           width="120"
+           height="250"
+           x="334"
+           y="468" />
+        <flowRoot
+           xml:space="preserve"
+           id="flowRoot3207-7"
+           style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+           transform="matrix(0,-1,1,0,-299.87778,786.92578)"><flowRegion
+             id="flowRegion3209-6"><rect
+               id="rect3211-9"
+               width="320"
+               height="56"
+               x="90"
+               y="666" /></flowRegion><flowPara
+             id="flowPara3213-85">Image</flowPara></flowRoot>      </g>
+      <flowRoot
+         transform="translate(272.87631,0.73828125)"
+         style="font-size:24px;font-style:normal;font-weight:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+         id="flowRoot4215-1"
+         xml:space="preserve"><flowRegion
+           id="flowRegion4217-5"><rect
+             style="font-size:24px;text-align:center;text-anchor:middle"
+             y="726.98779"
+             x="42.426407"
+             height="32.526936"
+             width="115.96552"
+             id="rect4219-8" /></flowRegion><flowPara
+           id="flowPara4221-88">Glance</flowPara></flowRoot>    </g>
+    <g
+       id="g4362"
+       transform="translate(0,-70)">
+      <g
+         transform="translate(-18,0)"
+         id="g3410">
+        <rect
+           style="fill:#2c8596;fill-opacity:1;stroke:none"
+           id="rect3205-9"
+           width="120"
+           height="250"
+           x="468"
+           y="468" />
+        <flowRoot
+           xml:space="preserve"
+           id="flowRoot3207-09"
+           style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+           transform="matrix(0,-1,1,0,-189.87778,785.24609)"><flowRegion
+             id="flowRegion3209-0"><rect
+               id="rect3211-1"
+               width="282"
+               height="106"
+               x="90"
+               y="666" /></flowRegion><flowPara
+             id="flowPara3329">Object</flowPara><flowPara
+             id="flowPara3333">Storage</flowPara></flowRoot>      </g>
+      <flowRoot
+         transform="translate(409.08008,0.73828125)"
+         style="font-size:24px;font-style:normal;font-weight:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+         id="flowRoot4215-19"
+         xml:space="preserve"><flowRegion
+           id="flowRegion4217-7"><rect
+             style="font-size:24px;text-align:center;text-anchor:middle"
+             y="726.98779"
+             x="42.426407"
+             height="32.526936"
+             width="115.96552"
+             id="rect4219-1" /></flowRegion><flowPara
+           id="flowPara4221-82">Swift</flowPara></flowRoot>    </g>
+    <g
+       id="g4350"
+       transform="translate(0,-70)">
+      <g
+         transform="translate(-19.333313,0)"
+         id="g3403">
+        <rect
+           style="fill:#2c8596;fill-opacity:1;stroke:none"
+           id="rect3205-5"
+           width="120"
+           height="250"
+           x="606"
+           y="468" />
+        <flowRoot
+           xml:space="preserve"
+           id="flowRoot3207-1"
+           style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+           transform="matrix(0,-1,1,0,-27.87778,786.92578)"><flowRegion
+             id="flowRegion3209-5"><rect
+               id="rect3211-6"
+               width="320"
+               height="56"
+               x="90"
+               y="666" /></flowRegion><flowPara
+             id="flowPara3213-88">Network</flowPara></flowRoot>      </g>
+      <flowRoot
+         transform="translate(546.09833,0)"
+         style="font-size:24px;font-style:normal;font-weight:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+         id="flowRoot4215-4"
+         xml:space="preserve"><flowRegion
+           id="flowRegion4217-3"><rect
+             style="font-size:24px;text-align:center;text-anchor:middle"
+             y="726.98779"
+             x="42.426407"
+             height="32.526936"
+             width="115.96552"
+             id="rect4219-9" /></flowRegion><flowPara
+           id="flowPara4221-4">Neutron</flowPara></flowRoot>    </g>
+    <g
+       id="g4338"
+       transform="translate(0,-70)">
+      <g
+         transform="translate(-26.666626,0)"
+         id="g3396">
+        <rect
+           style="fill:#2c8596;fill-opacity:1;stroke:none"
+           id="rect3205-06"
+           width="120"
+           height="250"
+           x="750"
+           y="468" />
+        <flowRoot
+           xml:space="preserve"
+           id="flowRoot3207-6"
+           style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+           transform="matrix(0,-1,1,0,116.12222,786.92578)"><flowRegion
+             id="flowRegion3209-1"><rect
+               id="rect3211-63"
+               width="320"
+               height="56"
+               x="90"
+               y="666" /></flowRegion><flowPara
+             id="flowPara3213-9">Database</flowPara></flowRoot>      </g>
+      <flowRoot
+         transform="translate(683.58533,0)"
+         style="font-size:24px;font-style:normal;font-weight:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+         id="flowRoot4215-9"
+         xml:space="preserve"><flowRegion
+           id="flowRegion4217-52"><rect
+             style="font-size:24px;text-align:center;text-anchor:middle"
+             y="726.98779"
+             x="42.426407"
+             height="32.526936"
+             width="115.96552"
+             id="rect4219-18" /></flowRegion><flowPara
+           id="flowPara4221-42">Trove</flowPara></flowRoot>    </g>
+    <g
+       id="g4537">
+      <g
+         id="g5448">
+        <rect
+           style="fill:#d8903e;fill-opacity:1;stroke:none"
+           id="rect4449"
+           width="940"
+           height="120"
+           x="40"
+           y="268" />
+        <flowRoot
+           xml:space="preserve"
+           id="flowRoot4451"
+           style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+           transform="translate(5.0019531,7.3858929)"><flowRegion
+             id="flowRegion4453"><rect
+               id="rect4455"
+               width="903.6825"
+               height="67.882248"
+               x="53.740116"
+               y="295.65268" /></flowRegion><flowPara
+             id="flowPara4457"
+             style="text-align:center;text-anchor:middle">Orchestration</flowPara></flowRoot>      </g>
+      <flowRoot
+         transform="translate(6.8284545,26.041631)"
+         style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+         id="flowRoot4459"
+         xml:space="preserve"><flowRegion
+           id="flowRegion4461"><rect
+             y="323.93695"
+             x="823.07227"
+             height="53.740116"
+             width="165.46298"
+             id="rect4463" /></flowRegion><flowPara
+           style="font-size:24px"
+           id="flowPara4465">Heat</flowPara></flowRoot>    </g>
+    <g
+       id="g4556">
+      <g
+         id="g4549">
+        <rect
+           style="fill:#2c8696;fill-opacity:1;stroke:none"
+           id="rect4467"
+           width="860"
+           height="120"
+           x="40"
+           y="137.46892" />
+        <flowRoot
+           xml:space="preserve"
+           id="flowRoot4451-3"
+           style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+           transform="translate(4.2597656,-123.14519)"><flowRegion
+             id="flowRegion4453-9"><rect
+               id="rect4455-5"
+               width="903.6825"
+               height="67.882248"
+               x="53.740116"
+               y="295.65268" /></flowRegion><flowPara
+             id="flowPara4457-4"
+             style="text-align:center;text-anchor:middle">Dashboard</flowPara></flowRoot>      </g>
+      <flowRoot
+         transform="translate(-26.523108,-103.02565)"
+         style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+         id="flowRoot4459-0"
+         xml:space="preserve"><flowRegion
+           id="flowRegion4461-7"><rect
+             y="323.93695"
+             x="823.07227"
+             height="53.740116"
+             width="165.46298"
+             id="rect4463-9" /></flowRegion><flowPara
+           style="font-size:24px"
+           id="flowPara4465-5">Horizon</flowPara></flowRoot>    </g>
+  </g>
+</svg>
