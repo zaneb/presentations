@@ -1,0 +1,38 @@
+\documentclass{tufte-handout}
+
+\usepackage{fancyvrb}
+\fvset{fontsize=\normalsize}
+
+\usepackage{hyperref}
+\hypersetup{colorlinks=true}
+
+\usepackage{graphicx}
+
+% Hide page numbers in ToC
+\let\Contentsline\contentsline
+\renewcommand\contentsline[3]{\Contentsline{#1}{#2}{}}
+
+\title{OpenStack Orchestration with Heat}
+\author{\href{mailto:zbitter@redhat.com}{Zane Bitter}}
+\date{24 October 2013}
+
+\usepackage{pdfpages}
+
+\begin{document}
+\maketitle
+
+\marginnote{\tableofcontents \vspace{2em}}
+
+\begin{abstract}
+An introduction to orchestration on OpenStack using the Heat project.
+\end{abstract}
+
+\input{orchestration}
+
+\input{template-overview}
+
+\input{providers}
+
+\input{future}
+
+\end{document}

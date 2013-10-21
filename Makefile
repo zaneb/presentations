@@ -1,4 +1,4 @@
-DOCS = 
+DOCS = heat-introduction.tex
 
 tex_files = $(wildcard *.tex)
 svg_files = $(wildcard *.svg)

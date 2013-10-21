@@ -1,0 +1,24 @@
+\section{Anatomy of a template}
+
+Heat is currently primarily aligned with the template model and abstractions provided by AWS CloudFormation templates.
+
+There is work in progress to expand this model to allow expression of infrastructure and application relationships which are difficult (or impossible) to express via CloudFormation templates.
+
+A template has four key elements:
+\begin{itemize}
+\item An optional \textsc{Parameters} section, which allows user-definable inputs to be specified
+\item An optional \textsc{Mappings} section, which allows key/value lookup of predefined constants
+\item A mandatory \textsc{Resources} section, which describes the resources and relationships which define the application, configuration and infrastructure.
+\item An optional \textsc{Outputs} section, which describes the output values to be returned to the user.
+\end{itemize}
+
+All resources have a common interface:
+
+\begin{itemize}
+\item A number of optional or mandatory \textsc{Properties} which specify inputs which affect how the resource is configured
+\item A number of output \textsc{Attributes} which may be referenced elsewhere in the template
+\end{itemize}
+
+A resource may reference any other resource, which causes implicit dependencies to be created within the Heat internal model.  These dependencies are used to control ordering of lifecycle operations, for example the order in which resources are created.  Explicit dependencies may also be specified when defining the template.
+
+A number of \textsc{Functions} are available which allow some limited manipulation of data within the template.
