@@ -1,0 +1,32 @@
+\begin{verbatim}
+Parameters:
+  ssh_key_name:
+    Type: String
+    Description: ssh keypair name
+  image_name:
+    Type: String
+    Description: The image to boot
+
+Resources:
+  my_server:
+    Type: OS::Nova::Server
+    Properties:
+      flavor: m1.small
+      key_name: {"Ref": "ssh_key"}
+      block_device_mapping:
+        device_name: vda
+        volume_id: {"Ref": "my_vol"}
+
+  my_vol:
+    Type: OS::Cinder::Volume
+    Properties:
+      size: 20
+      image: {"Ref": "image_name"}
+
+Outputs:
+  server_ip:
+    Description: The server IP
+    Value: {"Fn::GetAtt":
+                ["my_server",
+                 "first_address"]}
+\end{verbatim}
