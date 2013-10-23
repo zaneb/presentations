@@ -27,7 +27,7 @@ $(output): %.pdf:%.tex $(inclusions) $(pdf_graphics)
 
 $(output): %.pdf:%.out
 
-$(DOCS:.tex=.out): %.out:%.tex
+$(DOCS:.tex=.out): %.out:%.tex $(inclusions)
 	pdflatex $<
 
 
