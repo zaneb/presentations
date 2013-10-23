@@ -15,7 +15,7 @@ $$($(strip $(1))_graphics): %.$(strip $(1)):%.svg
 	inkscape -z --export-$(strip $(1))=$$@ $$<
 endef
 
-all: $(output) $(png_graphics);
+all: $(output) png;
 
 
 $(eval $(call graphics, png))
