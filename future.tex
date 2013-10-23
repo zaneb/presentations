@@ -1,5 +1,7 @@
 \section{Road Map}
 
+The Heat Orchestration Template (or \textsc{Hot}) format is an effort to develop a native template language for Heat.\footnote{Note that support for the CloudFormation template format will be maintained indefinitely.} A number of cosmetic changes have been prototyped already, with the aim of taking advantage of a \textsc{Yaml}-native format to improve the readability of templates.
+
 \begin{figure}[t]
 \centering
 \includegraphics[trim=0em 8em 0em 15em,width=\textwidth]{orchestration-config-management.pdf}
@@ -7,10 +9,6 @@
 \label{fig:orchestration-config-management}
 \end{figure}
 
-The \textsc{Hot} format is an effort to develop a native template language for Heat.\footnote{Note that support for the CloudFormation template format will be maintained indefinitely.} Most of the changes prototyped so far are only cosmetic in nature, and are aimed at taking advantage of a \textsc{Yaml}-native format to improve readability of templates.
+Work on \textsc{Hot} will continue in the upcoming Icehouse development cycle to close the gap (illustrated in Figure~\ref{fig:orchestration-config-management}) between orchestration and configuration managment, which are complementary technologies.\footnote{The Heat team is working very hard to avoid any \emph{overlap} with configuration management, or any reliance on a particular tool.} Likely changes involve handling dependencies and passing data between software components installed on the virtual servers that Heat configures. This will enable Heat to handle far more complex application topologies than are currently feasible.
 
-However, the long-term plan is to enhance \textsc{Hot} to the point where it can handle the same sorts of complex application topologies as \textsc{Tosca}. The main way to do this is to allow orchestration between software components in a similar way as we do with infrastructure components.
-
-In proposals currently under discussion, this would be implemented using software configurations that are not tied to a particular server. Multiple configurations could be hosted on the same server, or split up to different servers depending on the environment. (For example, you could define Database and Application configurations an co-locate them on a single server for testing but separate them for production.)
-
-As with infrastructure, dependencies would be inferred from configuration data relationships between resources in the template. Heat would handle instantiating software services with the correct timing, and passing data between them.
+\newthought{Development is also} planned on a separate Autoscaling API, to allow access to autoscaling for users who are not using Heat templates. We expect it to gain many more capabilities in the process, such as rolling updates and the ability to scale whole templates.
