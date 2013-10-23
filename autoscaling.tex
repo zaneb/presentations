@@ -2,4 +2,11 @@
 
 Heat also provides an autoscaling service for groups of virtual servers. Currently, this is accessible only by creating a Heat template containing the relevant resources (there is no separate \textsc{Rest} API).
 
-The resources involved are a launch configuration (for new servers being added to the group), a scaling group, OpenStack Metering (Ceilometer) alarms, and scaling policies. Ceilometer alarms can be configured to call a webhook---typically the one provided by the scaling policy resource in Heat---under defined circumstances, and a scaling policy will make adjustments to a scaling group based on this input and its own configuration. Scaling groups can also update a load balancer configuration when their membership changes.
+\begin{marginfigure}
+\centering
+\includegraphics[trim=35em 2em 0em 8em,width=\textwidth]{autoscaling.pdf}
+\caption{The reference relationships between resources used to automatically scale a group of servers.}
+\label{fig:autoscaling}
+\end{marginfigure}
+
+The resources involved are shown in Figure~\ref{fig:autoscaling}: a launch configuration (for new servers being added to the group), a scaling group, OpenStack Metering (Ceilometer) alarms, and scaling policies. Scaling groups can also update a load balancer configuration when their membership changes. Ceilometer alarms call a webhook---typically the one provided by the scaling policy resource in Heat---under defined circumstances, and a scaling policy will make adjustments to a scaling group based on this input and its own configuration.
