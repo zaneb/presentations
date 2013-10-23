@@ -2,7 +2,7 @@
 
 Orchestration is to infrastructure essentially what configuration management is for software applications. Instead of manipulating elements of your (virtual) infrastructure by hand, or with scripts, Heat allows you to work with a declarative model that represents the infrastructure resources and the relationships between them directly. Heat itself then works out the correct sequence of actions to perform to bring reality in line with your model.
 
-The model takes the form of a Heat template, and the resulting collection of infrastructure resources is known as a stack. Orchestration enables you to treat your infrastructure like code---you can store the template in a version control system to track changes to it. When you do make changes, just update the stack with the new template and Heat makes the necessary changes without requiring you to do it by hand or write a one-off script.
+The model takes the form of a Heat template, and the resulting collection of infrastructure resources is known as a stack. Orchestration enables you to treat your infrastructure like code---you can store the template in a version control system to track changes to it. When you do make changes, just update the stack with the new template and Heat performs the necessary actions.
 
 \begin{figure}[b!]
 \centering
@@ -11,6 +11,6 @@ The model takes the form of a Heat template, and the resulting collection of inf
 \label{fig:openstack-arch}
 \end{figure}
 
-The main interface to Heat is an OpenStack-native \textsc{Rest} API. As shown in Figure~\ref{fig:openstack-arch}, Heat sits between the user and the APIs of the core OpenStack services in much the same way that the Dashboard (Horizon) does. If you prefer, you can also interact with Heat through the Dashboard. Increasingly, Heat resources types are native representations of the underlying OpenStack \textsc{Rest} APIs, so you can access the full power and flexibility of OpenStack.
+\newthought{The main interface} to Heat is an OpenStack-native \textsc{Rest} API. As shown in Figure~\ref{fig:openstack-arch}, Heat sits between the user and the APIs of the core OpenStack services in much the same way that the Dashboard (Horizon) does. If you prefer, you can also interact with Heat through the Dashboard.
 
-Heat also provides a fair degree of compatibility with CloudFormation, its functional equivalent in Amazon Web Services.\footnote{In fact, this was the initial goal of the project.} If you have workloads running on AWS that are defined with CloudFormation templates, it may be possible to move them to OpenStack with few or no changes in many cases. Heat even has a CloudFormation compatibility API.\footnote{In much the same way as the OpenStack Compute service provides an EC2 compatibility API.}
+Increasingly, Heat resource types are native representations of the underlying OpenStack \textsc{Rest} APIs, so you can access the full power and flexibility of OpenStack. However Heat also provides a fair degree of compatibility with CloudFormation, its functional equivalent in Amazon Web Services.\footnote{In fact, launching CloudFormation templates on OpenStack was the initial goal of the project.} If you have workloads running on AWS that are defined with CloudFormation templates, it may be possible to move them to OpenStack with few or no changes in many cases. Heat even has a CloudFormation compatibility API.\footnote{In much the same way as the OpenStack Compute service provides an EC2 compatibility API.}
