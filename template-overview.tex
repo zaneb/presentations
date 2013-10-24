@@ -8,7 +8,7 @@
 
 Heat templates usually take the form of simple \textsc{Yaml} documents. We chose this over \textsc{Json}, which CloudFormation uses, because it is much easier for humans to read and write---and a diff between two versions of a \textsc{Yaml} template is usually trivial to interpret. \textsc{Yaml} is a strict superset of \textsc{Json} though, so \textsc{Json} is still fully supported and templates can be converted between the two formats with no loss of fidelity.
 
-Other than the serialisation format, Heat (for now) hews closely to the CloudFormation template model. (An example template is shown in Figure~\ref{fig:example-template} at right.) A template has four key elements:
+Other than the serialisation format, Heat (for now) adheres closely to the CloudFormation template model. (An example template is shown in Figure~\ref{fig:example-template} at right.) A template has four key elements:
 
 \begin{itemize}
 \item An optional \texttt{Parameters} section, which allows user-definable inputs to be specified.
