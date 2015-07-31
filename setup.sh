@@ -56,7 +56,7 @@ sudo /usr/local/bin/tlmgr install tufte-latex titlesec soul
 }
 
 install_rpm() {
-    sudo yum install texlive-latex-bin textlive-texconfig texlive texlive-tufte-latex textlive-titlesec
+    sudo yum install texlive-latex-bin texlive-texconfig texlive texlive-tufte-latex texlive-titlesec
 }
 
 if which yum >/dev/null && yum info texlive >/dev/null 2>/dev/null; then
